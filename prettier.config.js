@@ -4,5 +4,6 @@ module.exports = {
   arrowParens: 'avoid',
   trailingComma: 'none',
   endOfLine: 'auto',
-  tabWidth: 2
+  tabWidth: 2,
+  'max-len': ['error', { code: 80 }]
 }
