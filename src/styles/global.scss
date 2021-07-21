@@ -21,6 +21,11 @@
   }
 }
 
+@media (max-width: 450px) {
+  html {
+    font-size: 81.25%; //13px
+  }
+}
 
 body {
   background: var(--background);
@@ -44,6 +49,12 @@ h2 {
   font-size: 1.5rem;
 }
 
-button {
+button, a {
+  text-decoration: none;
   cursor: pointer;
+}
+
+[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
 }
