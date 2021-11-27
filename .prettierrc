@@ -1,0 +1,9 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "trailingComma": "none",
+  "tabWidth": 2,
+  "arrowParens": "avoid",
+  "endOfLine": "auto",
+  "max-len": ["error", { "code": 90 }]
+}

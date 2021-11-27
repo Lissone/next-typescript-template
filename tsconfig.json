@@ -5,17 +5,37 @@
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
+
+    // ---STRICT---
+    "noImplicitAny": false,
+    // "noImplicitThis": true,
+    "strictNullChecks": false,
+    // "strictBindCallApply": true,
+    // "strictPropertyInitialization": true,
+    // "strictFunctionTypes": false,
+
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
-    "noImplicitAny": false,
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "strictNullChecks": false
+    "baseUrl": "./",
+    "paths": {
+      "@types/*": ["src/types/*"],
+      "@assets/*": ["src/assets/*"],
+      "@utils/*": ["src/utils/*"],
+      "@routes/*": ["src/routes/*"],
+      "@contexts/*": ["src/contexts/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@services/*": ["src/services/*"],
+      "@components/*": ["src/components/*"],
+      "@pages/*": ["src/pages/*"],
+      "@styles/*": ["src/styles/*"]
+    }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
 }
