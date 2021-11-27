@@ -24,13 +24,13 @@
     "jsx": "preserve",
     "baseUrl": "./",
     "paths": {
-      "@types/*": ["src/types/*"],
       "@assets/*": ["src/assets/*"],
-      "@utils/*": ["src/utils/*"],
       "@routes/*": ["src/routes/*"],
+      "@utils/*": ["src/utils/*"],
+      "@types/*": ["src/types/*"],
+      "@services/*": ["src/services/*"],
       "@contexts/*": ["src/contexts/*"],
       "@hooks/*": ["src/hooks/*"],
-      "@services/*": ["src/services/*"],
       "@components/*": ["src/components/*"],
       "@pages/*": ["src/pages/*"],
       "@styles/*": ["src/styles/*"]

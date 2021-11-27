@@ -29,7 +29,8 @@
 	"plugins": [
 		"react",
     "@typescript-eslint",
-    "prettier"
+    "prettier",
+    "eslint-plugin-import-helpers"
 	],
 	"rules": {
     "prettier/prettier": ["error", {
@@ -68,6 +69,28 @@
         "jsx": "never",
         "ts": "never",
         "tsx": "never"
+      }
+    ],
+    "import-helpers/order-imports": [
+      "warn",
+      {
+        "newlinesBetween": "always",
+        "groups": [
+          "module",
+          "/^@assets/",
+          "/^@routes/",
+          "/^@utils/",
+          "/^@types/",
+          "/^@services/",
+          "/^@contexts/",
+          "/^@hooks/",
+          "/^@components/",
+          "/^@pages/",
+          ["parent", "sibling", "index"],
+          "/^@styles/",
+          "/^~/"
+        ],
+        "alphabetize": { "order": "asc", "ignoreCase": true }
       }
     ]
 	}
