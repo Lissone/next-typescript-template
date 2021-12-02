@@ -79,7 +79,7 @@ yarn husky install
 npx husky install
 ```
 
-Run api:
+Run web:
 
 ```bash
 yarn dev
