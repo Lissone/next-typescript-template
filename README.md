@@ -44,15 +44,15 @@ Template made in React with NextJs to facilitate the creation of new projects wi
 - NextJs
 - Typescript
 - Sass
-- Husky
-  - Lint staged
-  - Pretty quicky
 - Eslint
   - Airbnb-config with another pessoal rules
   - Import helpers plugin
 - Prettier
 - Commitlint
   - Commitizen
+- Husky
+  - Lint staged
+  - Pretty quicky
 
 ### Usage
 
@@ -69,14 +69,6 @@ Install dependencies using:
 yarn
 #or
 npm install
-```
-
-Enable husky git hooks:
-
-```bash
-yarn husky install
-#or
-npx husky install
 ```
 
 Run web:
