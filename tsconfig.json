@@ -4,16 +4,10 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
+    "incremental": true,
     "strict": true,
-
-    // ---STRICT---
     "noImplicitAny": false,
-    // "noImplicitThis": true,
     "strictNullChecks": false,
-    // "strictBindCallApply": true,
-    // "strictPropertyInitialization": true,
-    // "strictFunctionTypes": false,
-
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
@@ -37,5 +31,5 @@
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"],
+  "exclude": ["node_modules"]
 }
