@@ -33,14 +33,14 @@
     "prettier/prettier": [
       "error",
       {
-        "printWidth": 90,
+        "printWidth": 120,
         "semi": false,
         "singleQuote": true,
         "trailingComma": "none",
         "tabWidth": 2,
         "arrowParens": "always",
         "endOfLine": "auto",
-        "max-len": ["error", { "code": 90 }]
+        "max-len": ["error", { "code": 120 }]
       }
     ],
     "semi": [2, "never"],
@@ -61,10 +61,7 @@
     "react/jsx-props-no-spreading": "off",
     "react/react-in-jsx-scope": "off",
     "@next/next/no-img-element": "off",
-    "@typescript-eslint/no-unused-vars": [
-      "warn",
-      { "args": "none", "caughtErrors": "none" }
-    ],
+    "@typescript-eslint/no-unused-vars": ["warn", { "args": "none", "caughtErrors": "none" }],
     "@typescript-eslint/no-use-before-define": "off",
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
@@ -92,7 +89,7 @@
           "module",
           "/^@assets/",
           "/^@routes/",
-          "/^@type/",
+          "/^@interfaces/",
           "/^@services/",
           "/^@libs/",
           "/^@contexts/",
@@ -101,8 +98,7 @@
           "/^@pages/",
           "/^@utils/",
           ["parent", "sibling", "index"],
-          "/^@styles/",
-          "/^@/"
+          "/^@styles/"
         ],
         "alphabetize": { "order": "asc", "ignoreCase": true }
       }

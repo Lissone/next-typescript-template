@@ -21,7 +21,7 @@
       "@assets/*": ["assets/*"],
       "@routes/*": ["routes/*"],
       "@utils/*": ["utils/*"],
-      "@type/*": ["type/*"],
+      "@interfaces/*": ["interfaces/*"],
       "@services/*": ["services/*"],
       "@contexts/*": ["contexts/*"],
       "@hooks/*": ["hooks/*"],
