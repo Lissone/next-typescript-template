@@ -51,8 +51,6 @@ Already defined with Typescipt, ESLint with some plugins, Prettier, Lint staged,
 - Commitlint
   - Commitizen
 - Husky
-  - Lint staged
-  - Pretty quicky
 
 ### Usage
 
