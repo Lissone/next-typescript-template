@@ -29,15 +29,15 @@
 
 ## Description
 
-Template made in React with NextJs to facilitate the creation of new projects with some standardization, which can be created from this one.
+This template was created using React with Next.js and aims to facilitate the creation of new projects by providing a standardized and optimized foundation.
 
-Already defined with Typescipt, ESLint with some plugins, Prettier, Lint staged, Commitlint with Commitzen cli to further increase productivity and standardization in creating web .
+It includes essential configurations and tools such as TypeScript, Styled Components, and ESLint, ensuring best practices from the start of development. Ideal for use as a starting point in new projects, this template allows customization as needed.
 
 ### Requirements
 
+- [Nodejs](https://pnpm.io/pt/)
 - [Npm](https://www.npmjs.com/)
-- [Yarn](https://yarnpkg.com/)
-- [Nodejs](https://nodejs.org/en/)
+- [Pnpm](https://yarnpkg.com/)
 
 ### Technologies
 
@@ -45,11 +45,9 @@ Already defined with Typescipt, ESLint with some plugins, Prettier, Lint staged,
 - Typescript
 - StyledComponents
 - Eslint
-  - Airbnb-config with another pessoal rules
-  - Import helpers plugin
-- Prettier
+  - [Lissone config](https://github.com/Lissone/eslint-config-lissone)
 - Commitlint
-  - Commitizen
+  - Config conventional
 - Husky
 
 ### Usage
@@ -64,7 +62,7 @@ cd next-typescript-template
 Install dependencies using:
 
 ```bash
-yarn
+pnpm install
 #or
 npm install
 ```
@@ -72,7 +70,7 @@ npm install
 Run web:
 
 ```bash
-yarn dev
+pnpm dev
 #or
 npm run dev
 ```
