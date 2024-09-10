@@ -35,9 +35,8 @@ It includes essential configurations and tools such as TypeScript, Styled Compon
 
 ### Requirements
 
-- [Nodejs](https://pnpm.io/pt/)
+- [Nodejs](https://nodejs.org/pt)
 - [Npm](https://www.npmjs.com/)
-- [Pnpm](https://yarnpkg.com/)
 
 ### Technologies
 
@@ -62,16 +61,12 @@ cd next-typescript-template
 Install dependencies using:
 
 ```bash
-pnpm install
-#or
 npm install
 ```
 
 Run web:
 
 ```bash
-pnpm dev
-#or
 npm run dev
 ```
 
