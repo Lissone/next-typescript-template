@@ -45,7 +45,7 @@ It includes essential configurations and tools such as TypeScript, Styled Compon
 - Typescript
 - StyledComponents
 - Eslint
-  - Lissone config
+  - [Lissone config](https://github.com/Lissone/eslint-config-lissone)
 - Commitlint
   - Config conventional
 - Husky
